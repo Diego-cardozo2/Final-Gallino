@@ -1,5 +1,4 @@
 <script>
-import AppH1 from '../components/AppH1.vue';
 import { subscribeToAuthStateChanges } from '../services/auth';
 import { fetchLastGlobalChatMessages, sendNewGlobalChatMessage, subscribeToNewGlobalChatMessages } from '../services/global-chat';
 
@@ -8,7 +7,6 @@ let unsubscribeFromAuth = () => {};
 
 export default {
     name: 'ChatGlobal',
-    components: { AppH1, },
     data() {
         return {
             messages: [],
@@ -100,8 +98,6 @@ export default {
 </script>
 
 <template>
-    <AppH1>💬 Chat Global UBA</AppH1>
-
     <div class="max-w-6xl mx-auto">
         <div class="flex gap-6">
             <!-- Panel de chat -->
