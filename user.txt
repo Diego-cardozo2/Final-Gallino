@@ -1,0 +1,9 @@
+user:mariano@com
+password:mariano
+
+user:luka@avenali.com
+password:libertad
+
+user:agus.aguiar@mail.com
+password:agustin
+
